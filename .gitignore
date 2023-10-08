@@ -1,0 +1,4 @@
+/build/
+/.flatpak-builder/
+/export/
+wakfu-flatpak.flatpak

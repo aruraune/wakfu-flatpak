@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <id type="desktop">com.ankama.Wakfu.desktop</id>
+  <launchable type="desktop-id">com.ankama.Wakfu.desktop</launchable>
+  
+  <name>WAKFU</name>
+  <summary>WAKFU, The strategic MMORPG with a real environmental and political system.</summary>
+
+  <developer_name>Ankama Games</developer_name>
+
+  <metadata_license>0BSD</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+
+  <url type="homepage">https://www.wakfu.com/en/mmorpg/discover</url>
+  <icon type="remote" height="200" width="200">https://static.ankama.com/wakfu/ng/img/logo_wakfu.jpg</icon>
+
+  <description>
+    <p>Wakfu is a tactical turn-based MMORPG developed by Ankama Games and released for Microsoft Windows, macOS, and Linux on 29 February 2012.</p>
+    <p>New heroes are emerging to bring hope to a world in ruins. Whether you're a warrior or a politician, a merchant or a craftsman, in WAKFU, everything depends on you!</p>
+  </description>
+
+  <screenshots>
+    <screenshot>
+      <image type="source">https://static.ankama.com/g/modules/games/launcher/assets/wakfu/how-to-install3.jpg</image>
+      <caption>Character Creation</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://static.ankama.com/upload/backoffice/direct/2021-08-23/e03d8dcd73f890ff7effd891abb518ec.jpg</image>
+      <caption>Dimensional Rifts - Fight infinite waves of monsters with a turn limit</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://static.ankama.com/upload/backoffice/direct/2017-11-23/baca58e22df3bd3098590b8bc9bec5d9.jpg</image>
+      <caption>Dungeons and Bosses</caption>
+    </screenshot>
+    <screenshot type="default">
+      <image type="source">https://static.ankama.com/upload/backoffice/direct/2023-09-07/9536a6485dac2ffdfcc591f8dfd1caf4.png</image>
+      <caption>Celestial Island Rii - Tutorial Map</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://static.ankama.com/upload/backoffice/direct/2023-09-08/6d34386c41a551b357092c0552001cb6.png</image>
+      <caption>Training Dojo - NPCs</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://static.ankama.com/upload/backoffice/direct/2014-10-03/dad83f00c01fc20e51004f08ac92d669.png</image>
+      <caption>Ecosystem</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://static.ankama.com/upload/backoffice/direct/2023-09-08/6c18c89fc410f3239233585850252911.png</image>
+      <caption>In-Game Guide System</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://static.ankama.com/upload/backoffice/direct/2014-09-23/15d4e390cf54d98bf9d3658c455b33e6.png</image>
+      <caption>Turn-based Tactical Combat</caption>
+    </screenshot>
+  </screenshots>
+
+  <categories>
+    <category>Game</category>
+  </categories>
+
+  <releases>
+    <release version="1.81.1" date="2023-10-05"/>
+    <release version="1.81" date="2023-10-03"/>
+    <release version="1.80.1" date="2023-07-06"/>
+    <release version="1.80" date="2023-06-27"/>
+    <release version="1.79.2" date="2023-05-18"/>
+    <release version="1.79.1" date="2023-04-13"/>
+    <release version="1.79" date="2023-04-04"/>
+    <release version="1.78.2" date="2023-01-11"/>
+    <release version="1.78.1" date="2022-12-14"/>
+    <release version="1.78" date="2022-12-06"/>
+    <release version="1.77.2" date="2022-11-03"/>
+    <release version="1.77.1" date="2022-10-11"/>
+    <release version="1.77" date="2022-10-04"/>
+    <release version="1.76.6" date="2022-08-30"/>
+    <release version="1.76.5" date="2022-08-04"/>
+    <release version="1.76.4" date="2022-07-26"/>
+    <release version="1.76.3" date="2022-07-21"/>
+    <release version="1.76.2" date="2022-07-06"/>
+    <release version="1.76.1" date="2022-07-05"/>
+    <release version="1.76" date="2022-07-05"/>
+    <release version="1.75.3" date="2022-04-21"/>
+    <release version="1.75.2" date="2022-04-14"/>
+    <release version="1.75.1" date="2022-04-07"/>
+    <release version="1.75" date="2022-03-29"/>
+    <release version="1.74.4" date="2022-03-02"/>
+    <release version="1.74.3" date="2022-02-01"/>
+    <release version="1.74.2" date="2022-01-25"/>
+    <release version="1.74.1" date="2021-12-15"/>
+    <release version="1.74" date="2021-12-07"/>
+    <release version="1.73.4" date="2021-11-16"/>
+    <release version="1.73.3" date="2021-10-21"/>
+    <release version="1.73.2" date="2021-10-14"/>
+    <release version="1.73.1" date="2021-09-28"/>
+    <release version="1.73" date="2021-09-21"/>
+    <release version="1.72.4" date="2021-08-03"/>
+    <release version="1.72.3" date="2021-07-01"/>
+    <release version="1.72.2" date="2021-06-29"/>
+    <release version="1.72.1" date="2021-06-24"/>
+    <release version="1.72" date="2021-06-22"/>
+    <release version="1.71.3" date="2021-05-04"/>
+    <release version="1.71.2" date="2021-03-30"/>
+    <release version="1.71.1" date="2021-03-23"/>
+    <release version="1.71" date="2021-03-16"/>
+    <release version="1.70.5" date="2021-02-25"/>
+    <release version="1.70.3" date="2021-01-12"/>
+    <release version="1.70.2" date="2020-12-17"/>
+    <release version="1.70.1" date="2020-12-10"/>
+    <release version="1.70" date="2020-12-08"/>
+  </releases>
+
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">intense</content_attribute>
+    <content_attribute id="violence-fantasy">intense</content_attribute>
+    <content_attribute id="language-profanity">moderate</content_attribute>
+    <content_attribute id="language-humor">mild</content_attribute>
+    <content_attribute id="social-chat">moderate</content_attribute>
+    <content_attribute id="social-info">intense</content_attribute>
+    <content_attribute id="money-purchasing">intense</content_attribute>
+  </content_rating>
+
+</application>

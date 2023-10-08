@@ -1,0 +1,42 @@
+app-id: com.ankama.Wakfu
+
+runtime: org.freedesktop.Platform
+runtime-version: '23.08'
+
+sdk: org.freedesktop.Sdk
+
+command: AppRun
+
+finish-args:
+  - --socket=pulseaudio
+  - --socket=wayland
+  - --socket=x11
+  - --share=ipc
+  - --share=network
+  - --device=dri
+  - --persist=.
+
+modules:
+  - name: assets
+    buildsystem: simple
+    build-commands:
+      - install -Dm00755 assets/AppRun $FLATPAK_DEST/bin/AppRun
+      - install -Dm00644 assets/com.ankama.Wakfu.appdata.xml $FLATPAK_DEST/share/appdata/$FLATPAK_ID.appdata.xml
+    sources:
+      - type: dir
+        path: .
+
+  - name: wakfu
+    buildsystem: simple
+    build-commands:
+      - chmod +x Wakfu-Setup-x86_64.AppImage
+      - ./Wakfu-Setup-x86_64.AppImage --appimage-extract
+      - mv squashfs-root $FLATPAK_DEST/bin/wakfu
+      - install -Dm00644 $FLATPAK_DEST/bin/wakfu/zaap.png $FLATPAK_DEST/share/icons/hicolor/256x256/apps/$FLATPAK_ID.png
+      - install -Dm00644 $FLATPAK_DEST/bin/wakfu/zaap.desktop $FLATPAK_DEST/share/applications/$FLATPAK_ID.desktop
+      - sed -i -e 's/Icon=zaap/Icon=com.ankama.Wakfu/' $FLATPAK_DEST/share/applications/$FLATPAK_ID.desktop
+    sources:
+      - type: file
+        dest-filename: Wakfu-Setup-x86_64.AppImage
+        url: https://launcher.cdn.ankama.com/installers/production/Wakfu-Setup-x86_64.AppImage
+        sha256: 3c0d37befb89099b6c99dd32486d5b1c23c1d82921abcddc8002143259a086a0

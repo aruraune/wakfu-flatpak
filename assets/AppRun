@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+cd /app/bin/wakfu/
+
+LAUNCHER_FLAGS='--no-sandbox'
+
+export TMPDIR="$XDG_RUNTIME_DIR/app/${FLATPAK_ID:-com.ankama.Wakfu}"
+export APPDIR="$PWD"
+
+/app/bin/wakfu/AppRun "$LAUNCHER_FLAGS" "$@"
