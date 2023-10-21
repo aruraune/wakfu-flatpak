@@ -6,5 +6,6 @@ LAUNCHER_FLAGS='--no-sandbox'
 
 export TMPDIR="$XDG_RUNTIME_DIR/app/${FLATPAK_ID:-com.ankama.Wakfu}"
 export APPDIR="$PWD"
+export APPIMAGE="$APPDIR/AppRun"
 
 /app/bin/wakfu/AppRun "$LAUNCHER_FLAGS" "$@"
