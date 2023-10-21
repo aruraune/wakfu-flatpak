@@ -7,6 +7,9 @@ sdk: org.freedesktop.Sdk
 
 command: AppRun
 
+tags:
+  - proprietary
+
 finish-args:
   - --socket=pulseaudio
   - --socket=wayland
@@ -39,4 +42,4 @@ modules:
       - type: file
         dest-filename: Wakfu-Setup-x86_64.AppImage
         url: https://launcher.cdn.ankama.com/installers/production/Wakfu-Setup-x86_64.AppImage
-        sha256: 3c0d37befb89099b6c99dd32486d5b1c23c1d82921abcddc8002143259a086a0
+        sha256: ff3dd88cc57cd1d7e034b929c1677d5497bf4843a695c0b87d43c521f7088a65
