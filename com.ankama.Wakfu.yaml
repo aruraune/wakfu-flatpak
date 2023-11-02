@@ -42,4 +42,4 @@ modules:
       - type: file
         dest-filename: Wakfu-Setup-x86_64.AppImage
         url: https://launcher.cdn.ankama.com/installers/production/Wakfu-Setup-x86_64.AppImage
-        sha256: ff3dd88cc57cd1d7e034b929c1677d5497bf4843a695c0b87d43c521f7088a65
+        sha256: 4cc2b883060fa85cc05ff79fe545cea2251f89068ca4e56f050be706682c42bc
